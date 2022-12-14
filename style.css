@@ -82,6 +82,8 @@ footer img{
   padding: 0%;
 }
 .vertical{
+  margin-top: 10px;
+  margin-bottom: 10px;
   background: black;
   padding-top: 5px;
   padding-bottom: 15px;

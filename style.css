@@ -68,13 +68,7 @@ footer{
   margin-top: 10px;
   background-color: #0a0a0a;
 }
-footer img{
-  transform: scale(1);
-  transition: all 0.4s;
-}
-  footer img:hover{
-  transform: scale(1.1);
-}
+
 .cov{
   object-fit: cover;
 }
@@ -335,17 +329,34 @@ h2{
   vertical-align: bottom;
   color: #f36100;
 }
+.spec{
+  margin-left: 0; 
+}
+.spec p{
+  padding-top: 25px;
+  text-decoration: underline;
+  text-decoration-color: white;
+  color: white;
+}
 .spac{
   margin-left: 0;
 }
 .spac p{
   padding-top: 25px;
   text-decoration: underline;
-  text-decoration-color: white;
+  text-decoration-color: gray;
+  color: gray;
+}
+.spac li{
+  margin-top: 25px;
+  color: gray;
+  list-style-type: none;
 }
 .spac a{
-  text-decoration: none;
-}
+  padding-top: 25px;
+  text-decoration: underline;
+  text-decoration-color: gray;
+  color: gray;}
 .subtitlu{
   text-align: center;
   color: white;
@@ -365,4 +376,31 @@ h2{
 }
 .linkbuton:hover{
   color: #f36100;
+}
+.copy{
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+.pcopy{
+  text-align: center;
+  color: gray;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  margin-top: 20px;
+}
+footer a{
+  padding: 10px;
+}
+footer a:hover{
+  color: white;
+  text-decoration-color: #f36100;
+}
+footer a img{
+  margin-top: 20px;
+}
+footer p a{
+  padding: 0;
 }

@@ -310,7 +310,6 @@ h2{
   font-size: 18px;
   font-weight: 400;
   transform: skewY(4deg);
-  margin-left: -50px;
   scale: 1;
   transition: all 0.4s;
 }

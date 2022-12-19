@@ -304,8 +304,12 @@ h2{
 .preturi:hover p{
   scale: 1.1;
 }
+.lista{
+  padding-left: 0;
+}
 .preturi li{
   list-style: none;
+  margin-left: 0;
   color: rgb(160, 160, 160);
   font-size: 18px;
   font-weight: 400;
